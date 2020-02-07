@@ -1,0 +1,244 @@
+@font-face {
+    src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: "Sacramento";
+}
+
+@font-face {
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+    font-family: "mons";
+}
+
+@font-face {
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+    font-family: "monsbold";
+}
+@font-face {
+    src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+    font-family: "monsli";
+}
+@keyframes cloudtop{
+    0%{
+        opacity: 1;
+        transform: translateX(95vw);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(-95vw);
+    }
+}
+
+@keyframes cloudbot{
+    100%{
+        opacity: 1;
+        transform: translateX(95vw);
+    }
+    0%{
+        opacity: 1;
+        transform: translateX(-95vw);
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    text-align: center;
+}
+.home-header{
+    background: linear-gradient(to bottom, blue, royalblue, skyblue, lightblue, powderblue, blue);
+    height: 95vh;
+    position: relative;
+    overflow: hidden;
+    padding-top: 5rem;
+}
+
+.cl-top{
+    position: relative; 
+    top: 1.8rem;
+    left: 25rem;
+    animation: 15s cloudtop infinite linear;
+}
+
+.cl-bot{
+    position: absolute;
+    left: 25rem;
+    top: 1.8rem;
+    width: 15rem;
+    animation:18s cloudbot infinite linear;
+}
+.cl-bot2{
+    position: absolute;
+    left: 25rem;
+    top: 20rem;
+    width: 8rem;
+    animation:30s cloudbot infinite linear;
+}
+
+.header-title{
+    font-family: "Sacramento";
+    font-size: 9rem;
+    color:white;
+}
+
+.header-sub{
+    font-family: "mons";
+    font-size: 3rem;
+}
+
+.ibon{
+    position: absolute;
+    left: 35rem;
+    top: 30rem;
+    animation: 19s cloudtop infinite linear;
+    width: 5rem;
+}
+.mount{
+    position: relative ;
+    height: 20rem;
+    bottom:-18rem;
+    
+}
+.home-section-intro{
+    background: linear-gradient(to left, royalblue, skyblue, rgb(244, 248, 186), skyblue, royalblue);
+    position: relative;
+    height: 45vh;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    
+}
+.pogi{
+    width: 17rem;
+    border-radius: 100%;
+    
+}
+
+.bati{
+    font-family: "Sacramento";
+    font-size:4rem;
+}
+.desc{
+    font-family: "mons";
+    font-size: 1.5rem;
+}
+.home-section-skills{
+    background: linear-gradient(to left, skyblue,lightcyan,skyblue);
+    height: 95vh;
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.skill-art-con{
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    line-height: 2;
+}
+
+.skill{
+    font-family: "Sacramento";
+    font-size:6rem;
+    color: rgb(8, 8, 85);
+}
+.skill-img-lorem{
+    width: 15rem;
+    float: left;
+    margin-right: 2rem;
+    border-radius: 25%;
+}
+.it{
+    text-align: justify;
+    margin-left: 2rem;
+    font-family: "monsbold";
+}
+.skill-p-lorem{
+    text-align: justify;
+    margin-left: 2rem;
+    font-family: "mons";
+    font-size: 1rem;
+}
+
+.skill-img-lorem2{
+    width: 15rem;
+    float: right;
+    margin-left: 2rem;
+    border-radius: 25%;
+}
+.let{
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.come{
+    font-family: "Sacramento";
+    font-size: 4rem;
+    line-height: 5rem;
+    color: rgb(7, 7, 63);
+}
+
+.go{
+    font-family: "mons";
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    color: rgb(35, 35, 133);
+}
+.info{
+    font-family: "monsli";
+    font-size: 1.5rem;
+}
+.contact{
+    background-color: royalblue;
+    border-style: double;
+    border-color: black;
+    border-radius: 20px;
+    font-size: 2rem;
+    color:whitesmoke;
+    padding: 10px;
+}
+
+.button{
+    padding-bottom: 10px;
+}
+.home-footer{
+    border-top: solid;
+    border-width: 3px;
+    border-color: blue;
+    background: linear-gradient(to bottom, royalblue,royalblue);
+    height: 10vh;
+    padding-top: 3rem;
+}
+
+.links{
+    padding-bottom: 1rem;
+}
+
+.facebook{
+    text-decoration: none;
+    font-size: 1rem;
+    font-size: 15px;
+    color: black;
+    padding-right: 3rem;
+}
+
+.instagram{
+    text-decoration: none;
+    font-size: 1rem;
+    font-size: 15px;
+    color: black;
+   
+}
+
+.twitter{
+    text-decoration: none;
+    font-size: 1rem;
+    font-size: 15px;
+    color: black;
+    padding-right: 3rem;
+
+}
